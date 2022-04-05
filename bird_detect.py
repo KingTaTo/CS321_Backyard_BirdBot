@@ -159,15 +159,15 @@ print('Models loaded!')
 
 # <codecell> setup twitter api
 
-auth = tweepy.OAuthHandler(
-        config.twitter_auth_keys['consumer_key'],
-        config.twitter_auth_keys['consumer_secret']
-        )
-auth.set_access_token(
-        config.twitter_auth_keys['access_token'],
-        config.twitter_auth_keys['access_token_secret']
-        )
-api = tweepy.API(auth)
+# auth = tweepy.OAuthHandler(
+#         config.twitter_auth_keys['consumer_key'],
+#         config.twitter_auth_keys['consumer_secret']
+#         )
+# auth.set_access_token(
+#         config.twitter_auth_keys['access_token'],
+#         config.twitter_auth_keys['access_token_secret']
+#         )
+# api = tweepy.API(auth)
 
 # <codecell> Image acquisition
 # Wait a millisecond
